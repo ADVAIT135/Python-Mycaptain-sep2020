@@ -6,5 +6,5 @@ for i in range(0,Num):
 
 print("Positive Numbers in the list are : ")
 for j in range (Num):
-    if(NumList[j] >= 0):
+    if(NumList[j] > 0):
         print(NumList[j],end=' ')
